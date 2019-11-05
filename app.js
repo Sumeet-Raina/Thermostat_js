@@ -9,3 +9,7 @@ function Greeting() {
 Greeting.prototype.hello = function(person) {
   return 'Hello, ' + person + '!';
 }
+
+// And to use it:
+var greeting = new Greeting();
+greeting.hello('Maker'); // 'Hello, Maker!'
