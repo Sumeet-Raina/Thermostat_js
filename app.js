@@ -14,7 +14,7 @@ Greeting.prototype.hello = function(person) {
 var greeting = new Greeting();
 greeting.hello('Maker'); // 'Hello, Maker!'
 
-For a standalone function that takes no arguments:
+// For a standalone function that takes no arguments:
 
 function hiTimmy() {
   return 'Hi, Timmy!';
@@ -22,3 +22,11 @@ function hiTimmy() {
 // And to use it:
 
 hiTimmy(); // 'Hi, Timmy!'
+var myObject = {} // you can make empty objects
+var myOtherObject = {
+                      some: 'stuff',
+                      goes: 'in',
+                      here: 123,
+                      arrays: ['woah', 'check', 'it'],
+                      nestedObject: {another: 'object'},
+                      functionsToo: function(foo) { return foo }
