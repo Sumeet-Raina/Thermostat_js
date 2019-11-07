@@ -30,3 +30,4 @@ var myOtherObject = {
                       arrays: ['woah', 'check', 'it'],
                       nestedObject: {another: 'object'},
                       functionsToo: function(foo) { return foo }
+}
